@@ -1,10 +1,19 @@
 {
   "name": "dsh-wechat-todo",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
   "description": "Turn WeChat group chats into followable todos: three-column board over a local read-only WeChat reader.",
   "license": "MIT",
+  "author": "Tokamak (pythoner1984)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pythoner1984/dsh-wechat-todo.git"
+  },
+  "homepage": "https://github.com/pythoner1984/dsh-wechat-todo#readme",
+  "bugs": {
+    "url": "https://github.com/pythoner1984/dsh-wechat-todo/issues"
+  },
+  "keywords": ["deepseek-harness", "dsh", "dsh-plugin", "wechat", "todo", "group-chat"],
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
