@@ -4,6 +4,36 @@
 
 微信只读：不发送消息、不写微信数据库、不申请密钥、不联网（除把群聊原文发给所选模型做总结）。
 
+## 安装
+
+### 前置
+
+- 已安装 DeepSeek Harness（`dsh`）并初始化好 profile。
+- 本机微信已配置只读读取所需的 `~/.config/rion-wechat-reader/config.json` 与 `keys.json`（见下方「配置」）。插件不负责取密钥。
+
+### 方式一：从 GitHub 直接安装（命令行）
+
+```sh
+# 默认 profile 名是 web；自定义 profile 就替换 web
+dsh plugin --profile web add github:pythoner1984/dsh-wechat-todo
+```
+
+装完重启 `dsh web`，然后在侧栏点击「微信群待办」进入。
+
+> `dsh plugin` 会把参数转发给 profile 目录里的 pnpm，`github:owner/repo` 是 pnpm 的标准 git 依赖写法，会克隆本仓库并按其 `package.json` 安装。本插件没有 `postinstall`/`prepare` 脚本，无需构建授权。
+
+### 方式二：通过插件市场安装（图形界面）
+
+先安装官方插件市场 dshmarket：
+
+```sh
+dsh plugin --profile web add dshmarket
+```
+
+装完市场后，在 **Plugins → Discover**（或侧栏「插件市场」）里搜索 `dsh-wechat-todo` 一键安装。
+
+> 桌面版（DSH Desktop）请勿用命令行装市场——它会装进 `profiles/web` 而不是桌面版使用的 profile。请在应用内 **Settings → Plugins** 里安装 dshmarket，再去市场搜索。
+
 ## 组成
 
 ```
