@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="WeChat group todos">
+  <rect x="6" y="6" width="52" height="52" rx="14" fill="#0F172A"/>
+  <path d="M20 24.5c0-3 2.6-5.5 5.9-5.5h12.2c3.3 0 5.9 2.5 5.9 5.5v7c0 3-2.6 5.5-5.9 5.5h-7.6l-5.2 3.6v-3.9c-3-.4-5.3-2.8-5.3-5.6v-6.6z" fill="none" stroke="#7DD3FC" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M25 38.5h14" stroke="#7DD3FC" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M25 43.5h9" stroke="#38BDF8" stroke-width="2.4" stroke-linecap="round" opacity="0.7"/>
+</svg>

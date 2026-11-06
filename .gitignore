@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Local runtime data (never commit real WeChat data or keys)
+board.json
+*.db
+*.db-wal
+*.db-shm
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local scratch
+*.log
